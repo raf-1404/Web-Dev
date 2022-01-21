@@ -1,0 +1,309 @@
+body
+{
+    text-align: center;/*to align text in body tag with no width specified for the elements*/
+    margin-left: 0px;/*refer to the developer tool in google chrome*/
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    
+
+}
+div
+{
+    text-align: center;
+}
+.desc
+{
+    /*em can be used for dynamic sizing if a person changes font sizes it will change too else with pixels it doesnt */
+    font-size: 1.875rem;/*for 30px, 1 em = 16px so do 30/16=1.875em we put rem so that even if we add a font size for its parent tag it will add the font size only of the this one and will not add its parent font-size*/
+}
+
+h1{
+    width: 40%;/*when you specify width it doesnt display text in a long line*/
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top:50px ;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.75rem;
+    color:#66BFBF;
+    line-height: 2;/*spaces out the text */
+
+
+}
+.photo
+{
+    width: 21%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    
+   
+
+}
+
+.hacker 
+{
+    width: 21%;
+    float: right;/*allows you to make position of text adjacent to the right side of the image*/
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+
+
+.email
+{
+    text-align: center;
+    width: 50%;
+    margin: 10px,auto,10px,auto;
+    display: block;
+
+    
+
+}
+
+.code 
+
+{
+    width: 21%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    
+
+}
+.skillh
+{
+    text-align: left;
+   
+
+}
+
+
+    .skilld
+{
+    text-align: left;
+    line-height: 2;
+    /*clear: left;/*allows you to place text below the image*/
+
+}    
+    
+  .skilld1
+{
+    text-align: left;
+    line-height: 2;
+    /*clear: right;*/
+}
+
+    
+
+
+
+
+.skillsrow
+{
+    text-align: center;
+    width: 50%;
+    margin: 10px,auto,10px,auto;
+    display: inline-block;
+    
+
+
+}
+p 
+{
+
+    margin-top: 0px;
+    margin-right:auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    font-family: 'Merriweather', serif;
+    
+
+}
+h2
+{
+    font-family: 'Merriweather', serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 
+{
+    color: #11999E;
+}
+
+a
+{
+    color: #11999E;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin-bottom: 50px;
+    text-decoration: none; /*used to remove the iunderline from text*/
+
+}
+a:hover
+{
+    color: #06d1d1;
+}
+.top
+{
+    background-color: #EAF6F6;
+    /*display: inline-block;/*displays text or anything on the ssame line and we can change the width*/
+    padding-bottom: 100px;
+    font-family: 'Merriweather', serif;
+    
+}
+.middle-container
+{
+    background-color: white;
+    display: inline;
+    font-family: 'Merriweather', serif;
+   
+}
+.container/*to draw circle to display them as borders*/
+{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background: #c9c9c9;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+
+
+   
+}
+
+/*or to get few circles as border*/
+/*
+hr
+{
+    border-style: dotted;
+    border-bottom: none;/to have a single border otherwise two lines come
+    border-color:grey;
+    width:4%
+    margin:100px,auto;
+
+
+
+
+}
+*/
+.skills
+{
+    padding-top: 20px;
+    background-color: #EAF6F6;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+ 
+.contact-me
+{
+    margin-top: 0%;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.bottom-container
+{
+    background-color: #EAF6F6;
+    font-family: 'Merriweather', serif;
+    margin-right:0px ;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+ 
+    
+    
+
+}
+
+.copy
+{
+    text-align:center;
+    margin-top: 10px;
+    color:  #66BFBF;
+    font-size: 0.75rem;
+    padding-top: 10px;
+}    
+
+/*.mid
+{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline;/*displays text or anything on the same line and we cant change the width*/
+
+
+
+/*.bottom-container
+
+{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: block;/*does displays text or anything on the same line displays next text on a different line and we can change the width*/
+
+   
+
+
+
+.top-cloud 
+{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+
+
+}
+
+.bottom-cloud
+{
+    position: absolute;
+
+}
+.mountain
+{
+  align-content: center;
+}
+.btn {
+    background:  #11cdd4;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -moz-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -ms-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -o-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: linear-gradient(to bottom, #30e3cb, #30e3cb);
+    text-decoration: none;
+  }
