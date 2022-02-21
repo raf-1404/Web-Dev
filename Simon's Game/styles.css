@@ -1,0 +1,109 @@
+body 
+{
+    background-color: #10104b;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+}
+
+h1
+{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(229, 196, 155);
+    font-size: 4rem;
+    padding-bottom: 50px;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: rgb(151, 148, 148);
+    
+  }
+
+.box {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+    
+  }
+  
+.right 
+{
+    background-color: green;
+}
+
+
+.red
+{
+    border-style: solid;
+    background-color: red;
+    border-width:5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:5px;
+    border-radius: 20px;
+    border-color: black;
+   
+}  
+
+.green 
+{
+    border-style: solid;
+    background-color: green;
+    border-width:5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:5px;
+    border-radius: 20px;
+    border-color: black;
+    
+}
+
+.blue
+{
+    border-style: solid;
+    border-width:5px;
+    background-color: blue;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:5px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.yellow
+{
+    border-style: solid;
+    background-color: yellow;
+    border-width:5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:5px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+@media (max-width: 900px) {
+    .box {
+    
+        display: block;
+        margin: 0 130px 30px 130px ;
+    
+        
+        
+      }
+    
+}
