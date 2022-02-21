@@ -11,3 +11,5 @@ The fourth project is a drum kit that can be used to play the drum virtually wit
 
 
 The fifth project is a personal webpage using HTML , CSS.
+
+The sixth project is a simon's game using HTML,CSS,Javascript and JQuery
